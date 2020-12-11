@@ -14,7 +14,7 @@ interface UserRepositoryInterface
 ```
 
 ```php
-use nrslib\RepositorySupport\FileRepository;
+use nrslib\RepositorySupports\FileRepository;
 
 class FileUserRepository implements UserRepositoryInterface
 {
@@ -41,7 +41,7 @@ class FileUserRepository implements UserRepositoryInterface
 ## Setup
 ### in Laravel
 ```php
-use nrslib\RepositorySupport\FileRepositoryConfig;
+use nrslib\RepositorySupports\FileRepositoryConfig;
 
 class AppServiceProvider extends ServiceProvider
 {
