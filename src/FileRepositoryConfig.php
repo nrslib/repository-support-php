@@ -1,7 +1,7 @@
 <?php
 
 
-namespace nrslib\RepositorySupport;
+namespace nrslib\RepositorySupports;
 
 
 class FileRepositoryConfig
