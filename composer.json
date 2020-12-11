@@ -1,0 +1,19 @@
+{
+  "name": "nrslib/repository-supports",
+  "description": "Support creating repository.",
+  "type": "library",
+  "license": "MIT",
+  "authors" : [
+    {
+      "name" : "nrslib"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "nrslib\\RepositorySupport\\": "src/"
+    }
+  }
+}
